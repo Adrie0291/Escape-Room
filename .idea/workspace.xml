@@ -1,17 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9da612c3-8b21-4e86-9187-e292c14e9682" name="Changes" comment="" />
+    <list default="true" id="9da612c3-8b21-4e86-9187-e292c14e9682" name="Changes" comment="czesc">
+      <change afterPath="$PROJECT_DIR$/src/WarGame/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WarGame/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WarGame/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WarGame/Rank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WarGame/Suit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WarGame/War.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cotu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hello.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2CMcDm9D1uV8wekvF5EB2cQKHvA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -19,10 +40,24 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Adriann/IdeaProjects/testy/src"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WarGame.Main" />
+      <module name="testy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WarGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="cotu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cotu" />
       <module name="testy" />
@@ -32,6 +67,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.cotu" />
       </list>
     </recent_temporary>
@@ -45,6 +81,28 @@
       <option name="presentableId" value="Default" />
       <updated>1658615781829</updated>
     </task>
+    <task id="LOCAL-00001" summary="cc">
+      <created>1658615806099</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658615806099</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cc">
+      <created>1658615831465</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658615831465</updated>
+    </task>
+    <task id="LOCAL-00003" summary="czesc">
+      <created>1658615951107</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658615951107</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -57,5 +115,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cc" />
+    <MESSAGE value="czesc" />
+    <option name="LAST_COMMIT_MESSAGE" value="czesc" />
   </component>
 </project>
