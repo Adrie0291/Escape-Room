@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9da612c3-8b21-4e86-9187-e292c14e9682" name="Changes" comment="czesc">
-      <change afterPath="$PROJECT_DIR$/src/WarGame/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WarGame/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WarGame/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WarGame/Rank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WarGame/Suit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WarGame/War.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cotu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EscapeRoom/Door.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EscapeRoom/Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EscapeRoom/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EscapeRoom/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WarGame/War.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WarGame/War.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,25 @@
     "last_opened_file_path": "C:/Users/Adriann/IdeaProjects/testy/src"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Adriann\IdeaProjects\testy\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EscapeRoom.Main">
+    <configuration name="EscapeRoom.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EscapeRoom.Main" />
+      <module name="testy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EscapeRoom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WarGame.Main" />
       <module name="testy" />
@@ -67,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EscapeRoom.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.cotu" />
       </list>
@@ -102,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658615951107</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="czesc">
+      <created>1658616233501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658616233501</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

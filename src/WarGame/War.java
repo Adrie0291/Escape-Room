@@ -46,18 +46,30 @@ public class War {
     }
 
     public void strongerCard() {
+
         int count = 0;
         int count2 = 0;
         int remis = 0;
+        int remisyPrzed = 0;
         for (int i = 0; i < 26; i++) {
-            if (deckFirst().get(i).rank.getPower() == deckSecond().get(i).getRank().getPower()) {
-                remis++;
-            }
+
             if (deckFirst().get(i).rank.getPower() > deckSecond().get(i).getRank().getPower()) {
                 count++;
-            }
-            if (deckFirst().get(i).rank.getPower() < deckSecond().get(i).getRank().getPower()) {
+            } else if (deckFirst().get(i).rank.getPower() < deckSecond().get(i).getRank().getPower()) {
                 count2++;
+            } else if (deckFirst().get(i).rank.getPower() == deckSecond().get(i).getRank().getPower()) {
+                if (deckFirst().get(i + 1).rank.getPower() > deckSecond().get(i + 1).getRank().getPower()) {
+                    count++;
+                    count++;
+                    i++;
+                } else if (deckFirst().get(i + 1).rank.getPower() < deckSecond().get(i + 1).getRank().getPower()) {
+                    count2++;
+                    count2++;
+                    i++;
+                } else if (deckFirst().get(i + 1).rank.getPower() == deckSecond().get(i + 1).getRank().getPower()) {
+                    remis++;
+                    i++;
+                }
             }
         }
         System.out.println("Gracz nr 1. Zdobył punktów: " + count);
