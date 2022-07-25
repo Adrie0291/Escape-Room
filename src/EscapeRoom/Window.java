@@ -1,10 +1,17 @@
 package EscapeRoom;
 
 public class Window {
-    private boolean isOpen = false;
+    private boolean isClose = true;
 
+    public boolean isClose() {
+        return isClose;
+    }
 
     public void openWindow() {
-        isOpen = true;
+        isClose = false;
+
+    }
+    public void CloseWindow(){
+        isClose = true;
     }
 }

@@ -1,9 +1,13 @@
 package EscapeRoom;
 
 public class Key {
-    public boolean moveKey = false;
+    private boolean moveKey = false;
 
     public void takeKey() {
         moveKey = true;
+    }
+
+    public boolean isMoveKey() {
+        return moveKey;
     }
 }
